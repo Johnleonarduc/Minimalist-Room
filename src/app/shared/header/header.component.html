@@ -1,0 +1,21 @@
+<header>
+  <div id="logo">
+    <img src="../../../assets/Dananz-logo.svg" alt="Dananz company logo">
+  </div>
+
+  <button #menuBtn class="hamburger-button" *ngIf="screenWidth < 768" (click)="toggleNav(nav)">
+    <fa-icon [icon]="faBars" *ngIf="!isMenuBtnClicked && screenWidth < 768"></fa-icon>
+    <fa-icon [icon]="faXmark" *ngIf="isMenuBtnClicked && screenWidth < 768"></fa-icon>
+  </button>
+
+  <nav #nav [ngClass]="{'mobile-nav, hide': screenWidth < 768, 'desktop-nav show-desktop': screenWidth >= 768}">
+      <ul >
+        <li *ngFor="let link of navLinks">
+          <a [routerLink]="link.route">{{link.title | titlecase}}</a>
+        </li>
+      </ul>
+
+      <app-contact-button></app-contact-button>
+  </nav>
+
+</header>
