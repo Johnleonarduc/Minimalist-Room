@@ -1,0 +1,9 @@
+@media screen and (min-width: 1440px) {
+
+  app-footer{
+    width: 1200px;
+    margin: 120px auto
+  }
+
+}
+

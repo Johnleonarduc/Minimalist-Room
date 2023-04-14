@@ -8,7 +8,7 @@ html, body {
   max-width: 100%;
   width: 100vw;
   height: 100%;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   margin: 0;
   padding: 0;
 }
@@ -16,4 +16,13 @@ html, body {
 p,h3, div{
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 1440px){
+  body{
+    width: 1440px;
+    height: 3765px;
+    max-height: 3765px;
+    margin: auto auto;
+  }
 }

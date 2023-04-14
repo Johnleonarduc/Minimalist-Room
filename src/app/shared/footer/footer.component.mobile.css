@@ -47,7 +47,7 @@ section#contact{
 div#form {
   border-bottom: 1px solid #000;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 30px;
 }
 
 div#form input{

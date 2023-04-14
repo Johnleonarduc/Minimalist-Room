@@ -7,3 +7,55 @@
   }
 
 }
+
+
+@media screen and (min-width: 1440px) {
+
+  footer{
+    width: 1200px;
+    padding: 0;
+  }
+
+  section#about h3{
+    width: 481px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 61.2px;
+    align-items: center;
+  }
+
+  div#logo{
+    display: grid;
+    align-items: center;
+  }
+
+  section#contact{
+    width: 440px;
+  }
+  section#contact p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+
+  div#form {
+    justify-items: right;
+  }
+
+  input{
+    width: 100%;
+  }
+
+  section#contact div#socials{
+    width: 50%;
+    margin-right: 0;
+  }
+
+  section#contact div#socials p{
+    margin-left: 30px;
+  }
+
+  div#social-icons{
+    justify-items: right;
+  }
+}

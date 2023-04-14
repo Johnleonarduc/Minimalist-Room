@@ -103,7 +103,8 @@ div#design-process>p{
   }
 
   div p#para-footer{
-    align-items: center;
+    align-items: end;
+    padding-bottom: 1.5em;
   }
 
   div#design-process{
@@ -115,5 +116,28 @@ div#design-process>p{
     display: grid;
     align-self: center;
   }
+
+}
+
+@media screen and (min-width: 1440px){
+
+  section#hero-section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+
+  section#brief{
+    width: 1200px;
+    margin: 55px auto;
+  }
+
+  app-image-grid{
+    width: 1200px;
+    margin: 0 auto 120px auto;
+  }
+
+
+
 
 }
