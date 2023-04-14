@@ -3,11 +3,13 @@
 }
 
 footer{
-  width: inherit;
+  width: 80%;
+  margin: 1em auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
+  padding-bottom: 2em;
 }
 
 section#about{

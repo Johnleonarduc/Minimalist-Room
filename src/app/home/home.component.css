@@ -60,6 +60,10 @@ div#design-process p{
   color: #9C9C9C;
 }
 
+div#design-process>p{
+  margin-bottom: 1em;
+}
+
 @media screen and (min-width: 767px) {
 
   section#hero-section h1{
@@ -74,6 +78,12 @@ div#design-process p{
     line-height: 28.8px;
     width: 518px;
     text-align: center;
+  }
+
+  section#brief{
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
   }
 
 
