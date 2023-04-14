@@ -118,6 +118,12 @@ div#design-process>p{
 
   app-image-grid{
     width: 90%;
+    margin: auto auto;
+  }
+
+  app-call-to-action{
+    width: 90%;
+    margin: auto auto;
   }
 
 }
@@ -138,6 +144,11 @@ div#design-process>p{
   app-image-grid{
     width: 1200px;
     margin: 0 auto 120px auto;
+  }
+
+  app-call-to-action{
+    width: 1200px;
+    margin: auto auto;
   }
 
   div p#para-footer{
