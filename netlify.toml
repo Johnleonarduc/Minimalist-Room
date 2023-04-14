@@ -1,5 +1,5 @@
 [build]
-command = "ng build --prod"
+command = "ng build --configuration development"
 publish = "dist/minimalist-room"
 
 [[redirects]]
