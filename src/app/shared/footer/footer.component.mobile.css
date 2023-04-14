@@ -1,0 +1,97 @@
+:host{
+  width: 100%;
+}
+
+footer{
+  width: inherit;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+section#about{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: left;
+  align-content: space-around;
+  font-size: 1.5em;
+}
+
+section#about div img{
+  width: 126px;
+  height: 54px;
+}
+
+section#contact{
+  font-size: 18px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+}
+
+.icon-before::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 5px;
+}
+
+div#form {
+  border-bottom: 1px solid #000;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+div#form input{
+  font-size: 1em;
+  border: none;
+  height: 3em;
+  background-color: #F5F5F5;
+}
+
+input:focus {
+  outline: none;
+}
+
+section#contact div#socials{
+  justify-self: right;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 50%;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+div#social-icons{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.rounded-social-icon{
+  width: 32px;
+  height: 32px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+fa-icon{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+

@@ -1,1 +1,4 @@
-<p>image-grid works!</p>
+<section>
+  <img *ngFor="let image of images; index as i"  [class]="'image'+(i+1)" [src]="image.small" [alt]="image.alt"
+  [srcset]="image.small + ' 480w, ' + image.medium + ' 768w, ' + image.large + ' 1200w'" >
+</section>

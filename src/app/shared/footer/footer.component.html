@@ -1,1 +1,25 @@
-<p>footer works!</p>
+<footer>
+  <section id="about">
+    <div id="logo">
+      <img src="../../../assets/icons/Dananz-logo.svg" alt="Danaz Company Logo">
+    </div>
+    <h3>One of the best furniture agency</h3>
+  </section>
+  <section id="contact">
+    <p class="icon-before">Enter your email to get the latest news</p>
+    <div id="form">
+      <input type="email" name="email" id="email" placeholder="Email Address">
+      <img src="../../../assets/icons/right_half_arrow.svg" alt="right arrow head icon">
+    </div>
+    <div id="socials">
+      <p>Follow us on</p>
+      <div id="social-icons">
+        <a [href]="icon.link" target="_blank" rel="noopener noreferrer" *ngFor="let icon of socialIcons">
+          <div class="rounded-social-icon" >
+            <fa-icon [icon]="icon.icon" class="rounded"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</footer>

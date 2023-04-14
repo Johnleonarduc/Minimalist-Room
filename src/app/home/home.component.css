@@ -1,0 +1,80 @@
+:host{
+  width: 100%;
+}
+main{
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  justify-items: center;
+}
+
+section#hero-section{
+  width: 80%;
+  margin-top: 75px;
+  display: grid;
+  grid-template-rows: 1fr 1fr max-content;
+  align-items: center;
+  justify-items: center;
+  row-gap: 1em;
+}
+
+section#hero-section p{
+  text-align: center;
+  line-height: 20px;
+}
+
+section#hero-section img{
+  width: 100%;
+}
+
+section#brief{
+  width: 80%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+div#project-overview h4{
+  font-size: 1.5em;
+}
+
+div#project-overview p{
+  line-height: 25px;
+  color: #9C9C9C;
+}
+div#project-overview p#para-footer {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+div#design-process h4{
+  font-size: 1.5em;
+}
+
+div#design-process p{
+  line-height: 25px;
+  color: #9C9C9C;
+}
+
+@media screen and (min-width: 767px) {
+
+  section#hero-section h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+  }
+
+  section#hero-section p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28.8px;
+    width: 518px;
+    text-align: center;
+  }
+
+
+}

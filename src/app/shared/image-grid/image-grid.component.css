@@ -1,0 +1,49 @@
+:host{
+  width: 100%;
+  margin: 2em;
+}
+
+section{
+  width: 90%;
+  margin: auto auto;
+}
+
+img{
+  width: 100%;
+  margin-bottom: .5em ;
+}
+
+@media screen and (min-width: 500px) {
+  section{
+    display: grid;
+    grid-template:
+    "image1 image2"
+    "image3 image3"
+    "image4 image5"
+    ;
+    column-gap: 1em;
+    row-gap: 1em;
+
+  }
+
+  img{
+    margin: 0;
+  }
+
+  .image1{
+    grid-area: image1;
+  }
+  .image2{
+    grid-area: image2;
+  }
+  .image3{
+    grid-area: image3;
+  }
+  .image4{
+    grid-area: image4;
+  }
+  .image5{
+    grid-area: image5;
+  }
+
+}

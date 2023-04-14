@@ -1,0 +1,45 @@
+:host{
+  width: 100%;
+}
+
+section{
+  background-color: #2C3878;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  color: #FFFFFF;
+}
+
+h2{
+  font-size: 1em;
+}
+
+button{
+  background-color: white;
+  color: #333333;
+  font-size: 14px;
+  width: 142px;
+  height: 49px;
+  border: none;
+}
+
+
+
+p{
+  font-size: 18px;
+}
+
+
+@media screen and (min-width: 768px) {
+  section{
+    grid-template-rows: none;
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  h2{
+    width: 613px;
+    font-size: 36px;
+  }
+}
