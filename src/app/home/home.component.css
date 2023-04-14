@@ -11,7 +11,7 @@ main{
 }
 
 section#hero-section{
-  width: 80%;
+  width: 90%;
   margin-top: 75px;
   display: grid;
   grid-template-rows: 1fr 1fr max-content;
@@ -30,7 +30,7 @@ section#hero-section img{
 }
 
 section#brief{
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   align-items: center;
@@ -66,13 +66,13 @@ div#design-process>p{
 }
 
 app-image-grid{
-  width: 80%;
+  width: 90%;
   margin: auto auto;
 }
 
 app-call-to-action{
-  width: 80%;
-  margin: auto auto;
+  width: 90%;
+  margin: 1em auto;
 }
 
 @media screen and (min-width: 767px) {
