@@ -28,7 +28,7 @@ section#about div img{
 
 section#contact{
   font-size: 18px;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
@@ -47,7 +47,7 @@ section#contact{
 div#form {
   border-bottom: 1px solid #000;
   display: grid;
-  grid-template-columns: 4fr 30px;
+  grid-template-columns: auto 30px;
 }
 
 div#form input{
