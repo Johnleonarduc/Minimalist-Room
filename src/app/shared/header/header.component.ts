@@ -1,5 +1,6 @@
 import { Component, HostListener, ElementRef } from '@angular/core';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { INavLink } from '../interfaces/navlinks.interface';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent {
     this.screenWidth = window.innerWidth;
   }
 
-  navLinks = [
+  navLinks:INavLink[] = [
     {route: 'home', title: 'home'},
     {route: 'about', title: 'about us'},
     {route: 'services', title: 'services'},
@@ -26,7 +27,7 @@ export class HeaderComponent {
 
   // HostListener to detect screen size changes
   @HostListener('window:resize', ['$event'])
-  onResize(event: Event) {
+  onResize() {
     this.screenWidth = window.innerWidth;
   }
 

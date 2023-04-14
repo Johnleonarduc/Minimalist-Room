@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IGridImage } from '../interfaces/images.interface';
 
 @Component({
   selector: 'app-image-grid',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./image-grid.component.css']
 })
 export class ImageGridComponent {
-  images = [
+  images:IGridImage[] = [
     { small: '../../../assets/small/image1.jpg', medium: '../../../assets/medium/image1.jpg', large: '../../../assets/medium/image1.jpg', alt:'image of chair and basket'},
     { small: '../../../assets/small/image2.jpg', medium: '../../../assets/medium/image2.jpg', large: '../../../assets/medium/image2.jpg', alt:'image of table, phone, and mirror'},
     { small: '../../../assets/small/image3.jpg', medium: '../../../assets/medium/image3.jpg', large: '../../../assets/large/image3.jpg', alt:'image of couch and cabinet'},
