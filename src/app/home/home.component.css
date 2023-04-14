@@ -65,6 +65,9 @@ div#design-process>p{
 }
 
 @media screen and (min-width: 767px) {
+  section#hero-section{
+    width: 90%;
+  }
 
   section#hero-section h1{
     font-size: 56px;
@@ -81,10 +84,36 @@ div#design-process>p{
   }
 
   section#brief{
+    width: 90%;
     grid-template-rows: none;
     grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
+    column-gap: 2em;
+    align-items: normal;
+    justify-items: normal;
   }
 
+  div#project-overview{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  div#project-overview h4{
+    display: grid;
+    align-self: center;
+  }
+
+  div p#para-footer{
+    align-items: center;
+  }
+
+  div#design-process{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  div#design-process h4{
+    display: grid;
+    align-self: center;
+  }
 
 }
