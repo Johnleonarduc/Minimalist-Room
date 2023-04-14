@@ -1,6 +1,7 @@
 :host{
   width: 100%;
 }
+
 main{
   width: 100%;
   display: grid;
@@ -64,6 +65,16 @@ div#design-process>p{
   margin-bottom: 1em;
 }
 
+app-image-grid{
+  width: 90%;
+  margin: auto auto;
+}
+
+app-call-to-action{
+  width: 90%;
+  margin: auto auto;
+}
+
 @media screen and (min-width: 767px) {
   section#hero-section{
     width: 90%;
@@ -114,16 +125,6 @@ div#design-process>p{
   div#design-process h4{
     display: grid;
     align-self: center;
-  }
-
-  app-image-grid{
-    width: 90%;
-    margin: auto auto;
-  }
-
-  app-call-to-action{
-    width: 90%;
-    margin: auto auto;
   }
 
 }
