@@ -1,27 +1,25 @@
-# MinimalistRoom
+# Minimalist Room
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+This project develops a single Figma page using full
+responsiveness principles and best practices
+- The UI completely matches the design in this Figma page:
+https://www.figma.com/file/4xv1J0UO79SH4SEUuKNwZl/Untitled?n
+ode-id=5%3A188
 
-## Development server
+The UI given is a desktop view with width of 1440px; therefore, the UI designs for screens above 1440px is the same but with left and right margins. The mobile variant was Ideated by me.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The styles are written in raw CSS.
 
-## Code scaffolding
+## Technologies Used:
+- Framework: Angular
+- Language: Typescript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo this App:
+- The page is hosted on Netlify at [Minimalist Room](https://minimalistroom.netlify.app)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Basic Setup:
+- Clone this repository
+- Run npm install
+- run `ng serve` for a dev server. Navigate to `http://localhost:4200/`
+- You can use the redux tool extension to inspect Ngrx
