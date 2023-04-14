@@ -16,7 +16,7 @@ header{
 }
 
 div#logo{
-  margin-left: 2em;
+  margin-left: 7%;
 }
 
 div#logo img{
@@ -27,10 +27,15 @@ button{
   background: none;
   border: none;
   cursor: pointer;
+  /* remove the blue background on click effect */
+  -webkit-tap-highlight-color: transparent;
 }
 
 fa-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-right: 10%;
+  display: grid;
+  justify-items: end;
 }
 
 nav{
