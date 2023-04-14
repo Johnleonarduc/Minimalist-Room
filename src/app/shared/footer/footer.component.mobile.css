@@ -32,6 +32,7 @@ section#contact{
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
+  justify-content: space-around;
 }
 
 .icon-before::before {
