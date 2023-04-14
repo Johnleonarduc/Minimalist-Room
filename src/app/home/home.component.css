@@ -103,8 +103,7 @@ div#design-process>p{
   }
 
   div p#para-footer{
-    align-items: end;
-    padding-bottom: 1.5em;
+    align-items: center;
   }
 
   div#design-process{
@@ -115,6 +114,10 @@ div#design-process>p{
   div#design-process h4{
     display: grid;
     align-self: center;
+  }
+
+  app-image-grid{
+    width: 90%;
   }
 
 }
@@ -137,7 +140,9 @@ div#design-process>p{
     margin: 0 auto 120px auto;
   }
 
-
-
+  div p#para-footer{
+    align-items: end;
+    padding-bottom: 1.5em;
+  }
 
 }
