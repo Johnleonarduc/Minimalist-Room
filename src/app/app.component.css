@@ -1,6 +1,5 @@
-app-footer{
-  width: 90%;
-  margin: auto auto
+:host{
+  width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
